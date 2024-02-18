@@ -1,0 +1,45 @@
+* {
+    font-family: "Roboto", sans-serif;
+    background-color: black;
+    color: var(--textColor);
+}
+
+:root {
+    --primarycolor: red;
+    --secondryColor: black;
+    --textColor: gray;
+}
+
+.padding {
+    padding: 20px;
+}
+
+.alignItem {
+
+    align-items: center;
+}
+
+.main {
+    background-color: var(--primarycolor);
+    width: 200px;
+    height: 200px;
+    margin-top: 20px;
+}
+
+.bg {
+    background-color: var(--primarycolor);
+}
+
+.products .card {
+    margin-bottom: 30px;
+    transition: .5s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    transition: .5s;
+}
+
+.padding-banner .h1{
+    text-align: center;
+}
